@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/feature/profile-readme-design/github-profile-banner.svg" alt="Rohit Yadav creative portfolio banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/github-profile-banner.svg" alt="Rohit Yadav creative portfolio banner" width="100%">
 </div>
 
 <h1 align="center">Hi, I'm Rohit Yadav 👋</h1>
