@@ -6,7 +6,7 @@
 <h3 align="center">3D Animator · Unreal Environment Artist · CGI & VFX</h3>
 
 <p align="center">
-  Creating cinematic environments, photorealistic product animation, and immersive visual experiences.
+  <strong>4+ years of industry experience</strong> creating photorealistic product animations, cinematic environments, and immersive CGI experiences.
 </p>
 
 <p align="center">
@@ -20,9 +20,9 @@
 
 ## About me
 
-I'm a 3D Animator and Unreal Environment Artist with **4+ years of industry experience**. I hold a B.Sc. in Physics from Mumbai University and completed a specialization in Animation & Visual Effects at Arena Animation.
+I'm a **3D Animator, Unreal Environment Artist, and CGI/VFX Artist** with **4+ years of industry experience**. I hold a B.Sc. in Physics from Mumbai University and completed a specialization in Animation & Visual Effects at Arena Animation.
 
-My work spans **high-end product animation, cinematic environments, short-film animation, realistic CGI, and visual effects**. I enjoy combining creative storytelling with technical problem-solving to bring products and worlds to life.
+I create **high-end product animations, cinematic environments, short-film animation, realistic CGI, and visual effects**. My approach combines visual storytelling, lighting, animation, and technical problem-solving to bring products and digital worlds to life.
 
 ## Featured projects
 
