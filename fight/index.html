@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<title>Rohit Yadav — Toon Fight Lab</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#121a2d;--line:#293654;--mint:#73f2c2;--pink:#ff729e;--gold:#ffe08a}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#26365d 0,transparent 55%),var(--bg);color:#f5f7ff;font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+main{width:min(1100px,100% - 28px);margin:auto;padding:26px 0 40px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.eyebrow{font-size:.75rem;letter-spacing:.22em;color:var(--mint);font-weight:800}.top a{color:#c9d5f3;text-decoration:none;font-size:.9rem}.top a:hover{color:var(--mint)}
+h1{font-size:clamp(2rem,6vw,4.4rem);line-height:1.02;letter-spacing:-.055em;margin:8px 0 10px}.intro{color:#aebbd8;max-width:650px;margin:0 0 22px}
+.stage{position:relative;overflow:hidden;border:1px solid #354466;border-radius:24px;background:#111a31;box-shadow:0 22px 70px #0007}.stage canvas{display:block;width:100%;height:auto;aspect-ratio:16/9;touch-action:manipulation}.hud{position:absolute;left:3%;right:3%;top:4%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;pointer-events:none}.fighter-hud{min-width:0}.fighter-hud:last-child{text-align:right}.name{font-size:clamp(.7rem,2vw,.95rem);font-weight:900;letter-spacing:.12em}.meter{height:10px;border-radius:99px;background:#202b44;margin-top:7px;overflow:hidden;border:1px solid #ffffff22}.meter span{display:block;width:100%;height:100%;background:linear-gradient(90deg,#58e6ad,#b7ffcb);transition:width .15s}.fighter-hud:last-child .meter span{margin-left:auto;background:linear-gradient(90deg,#ffb0c7,#ff668e)}.round{font-size:.7rem;font-weight:900;letter-spacing:.16em;padding:7px 10px;border:1px solid #ffffff2b;background:#0a1024b8;border-radius:99px}
+.controls{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;padding:16px}.keys{display:flex;flex-wrap:wrap;gap:8px}.key{border:1px solid var(--line);background:#17223b;color:#dce6ff;border-radius:10px;padding:7px 10px;font-size:.8rem}.key b{color:var(--mint)}.actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+button{font:inherit;font-weight:800;cursor:pointer;border:1px solid #405174;border-radius:12px;padding:10px 14px;color:#f6f8ff;background:#202d49}button:hover{transform:translateY(-1px);border-color:var(--mint)}button.primary{background:var(--mint);color:#09152a;border-color:var(--mint)}
+.mobile-controls{display:none;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 16px 16px}.mobile-controls button{padding:13px 8px;touch-action:manipulation}
+.caption{display:flex;gap:12px;justify-content:space-between;align-items:center;padding:0 16px 16px;color:#9eaccb;font-size:.82rem}.caption strong{color:#e5ebff}
+.footer{margin-top:18px;color:#91a0c2;font-size:.85rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.footer a{color:var(--mint)}
+@media(max-width:640px){main{width:min(100% - 18px,1100px);padding-top:16px}.top{align-items:flex-start}.controls{grid-template-columns:1fr}.actions{justify-content:stretch}.actions button{flex:1}.mobile-controls{display:grid}.caption{font-size:.74rem}.key{font-size:.72rem;padding:6px 8px}.stage{border-radius:16px}.meter{height:8px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <div class="top"><div class="eyebrow">ROHIT YADAV · CREATIVE PLAYGROUND</div><a href="https://rohitcreative.artstation.com/" target="_blank" rel="noreferrer">View my ArtStation ↗</a></div>
+  <h1>TOON FIGHT <span style="color:var(--mint)">LAB.</span></h1>
+  <p class="intro">A tiny browser-based animation experiment: two original cartoon bots, squash-and-stretch movement, impact bursts and a little friendly chaos. Built with HTML Canvas + JavaScript.</p>
+  <section class="stage" aria-label="Playable cartoon fighting demo">
+    <canvas id="arena" width="960" height="540" aria-label="Two cartoon characters sparring in a neon arena"></canvas>
+    <div class="hud">
+      <div class="fighter-hud"><div class="name">MINT BOT</div><div class="meter"><span id="healthA"></span></div></div>
+      <div class="round" id="status">ROUND 01 · SPAR!</div>
+      <div class="fighter-hud"><div class="name">BERRY BOT</div><div class="meter"><span id="healthB"></span></div></div>
+    </div>
+  </section>
+  <div class="controls">
+    <div class="keys"><span class="key"><b>A / D</b> Move</span><span class="key"><b>W</b> Jump</span><span class="key"><b>F</b> Punch</span><span class="key"><b>G</b> Special</span><span class="key"><b>← → ↑ / Enter</b> Player 2</span></div>
+    <div class="actions"><button id="pauseBtn">Pause</button><button id="resetBtn" class="primary">Restart round ↻</button></div>
+  </div>
+  <div class="mobile-controls"><button data-key="a">◀ Move</button><button data-key="w">⬆ Jump</button><button data-key="f">✦ Punch</button></div>
+  <div class="caption"><span><strong>Friendly sparring only.</strong> No gore, just cartoony physics.</span><span>Responsive · Keyboard + touch</span></div>
+  <div class="footer"><span>Made for the love of animation, timing & visual storytelling.</span><a href="https://rohitcreative.github.io/Portfolio/">Explore the full portfolio ↗</a></div>
+</main>
+<script>
+(() => {
+const canvas=document.getElementById('arena'),ctx=canvas.getContext('2d');
+const healthA=document.getElementById('healthA'),healthB=document.getElementById('healthB'),status=document.getElementById('status');
+const keys=new Set();let paused=false,last=0,time=0,particles=[];
+const make=(x,color,accent,dir)=>({x,y:395,vx:0,vy:0,color,accent,dir,hp:100,attack:0,special:0,hit:0,walk:0,air:false,guard:0});
+let a,b;
+function reset(){a=make(310,'#75f3c4','#d4ffe9',1);b=make(650,'#ff739f','#ffe0ea',-1);particles=[];paused=false;document.getElementById('pauseBtn').textContent='Pause';status.textContent='ROUND 01 · SPAR!';}
+reset();
+function burst(x,y,color,n=12){for(let i=0;i<n;i++){const ang=Math.PI*2*i/n;particles.push({x,y,vx:Math.cos(ang)*(1+Math.random()*4),vy:Math.sin(ang)*(1+Math.random()*4),life:25+Math.random()*12,color,size:2+Math.random()*4});}}
+function drawBackground(){const g=ctx.createLinearGradient(0,0,0,540);g.addColorStop(0,'#182746');g.addColorStop(1,'#101427');ctx.fillStyle=g;ctx.fillRect(0,0,960,540);
+ctx.save();ctx.strokeStyle='#7ca5ff18';ctx.lineWidth=1;for(let x=0;x<960;x+=48){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,540);ctx.stroke()}for(let y=40;y<540;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(960,y);ctx.stroke()}ctx.restore();
+ctx.save();ctx.translate(480,355);ctx.strokeStyle='#8aabff2a';for(let i=0;i<12;i++){ctx.beginPath();ctx.ellipse(0,0,90+i*35,18+i*7,0,0,Math.PI*2);ctx.stroke()}ctx.restore();
+ctx.fillStyle='#0b1020';ctx.fillRect(0,435,960,105);ctx.fillStyle='#72f3c355';ctx.fillRect(0,434,960,3);for(let i=0;i<8;i++){ctx.fillStyle=i%2?'#ff739f':'#75f3c4';ctx.globalAlpha=.25;ctx.fillRect(i*132+20,470,50,3)}ctx.globalAlpha=1;}
+function rounded(x,y,w,h,r,fill,stroke){ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=3;ctx.stroke();}}
+function drawFighter(p,other){ctx.save();ctx.translate(p.x,p.y);ctx.scale(p.dir,1);const bob=Math.sin(p.walk)*3,stretch=p.hit?1.13:1;ctx.translate(0,bob);ctx.scale(stretch,2-stretch);
+ctx.globalAlpha=.22;ctx.fillStyle='#000';ctx.beginPath();ctx.ellipse(0,27,42,9,0,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;
+const lean=p.attack?-.2:0;ctx.rotate(lean);
+rounded(-27,-70,54,70,20,p.color,'#071226');rounded(-21,-94,42,37,14,p.accent,'#071226');
+ctx.fillStyle='#0d1830';ctx.beginPath();ctx.ellipse(-8,-76,4,6,0,0,Math.PI*2);ctx.ellipse(9,-76,4,6,0,0,Math.PI*2);ctx.fill();
+ctx.strokeStyle='#0d1830';ctx.lineWidth=3;ctx.beginPath();ctx.arc(1,-68,7,.15,Math.PI-.15);ctx.stroke();
+ctx.strokeStyle=p.color;ctx.lineWidth=13;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(-22,-51);ctx.lineTo(-37,-34);ctx.stroke();
+ctx.beginPath();ctx.moveTo(22,-51);ctx.lineTo(p.attack?58:34,p.attack?-58:-30);ctx.stroke();
+ctx.fillStyle=p.accent;ctx.beginPath();ctx.arc(p.attack?60:35,p.attack?-60:-31,10,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#071226';ctx.lineWidth=3;ctx.stroke();
+rounded(-22,-5,17,27,7,'#dce7ff','#071226');rounded(5,-5,17,27,7,'#dce7ff','#071226');
+if(p.special>0){ctx.strokeStyle=p.color;ctx.globalAlpha=.55;ctx.lineWidth=5;ctx.beginPath();ctx.arc(0,-43,57+(24-p.special)*2,Math.PI*1.05,Math.PI*1.9);ctx.stroke();}
+ctx.restore();
+if(p.attack>0){ctx.save();ctx.globalAlpha=Math.min(.9,p.attack/7);ctx.translate(p.x+p.dir*65,p.y-67);ctx.rotate(p.dir*.25);ctx.fillStyle=p.accent;ctx.beginPath();ctx.ellipse(0,0,23,11,0,0,Math.PI*2);ctx.fill();ctx.restore();}}
+function action(p,other,type){if(p.attack>0||p.special>0)return;if(type==='special'){p.special=24;p.attack=10;burst(p.x+p.dir*45,p.y-60,p.color,18)}else{p.attack=12;}const reach=type==='special'?125:92;if(Math.abs(other.x-p.x)<reach&&Math.sign(other.x-p.x)===p.dir){other.hp=Math.max(0,other.hp-(type==='special'?13:6));other.hit=9;other.vx=p.dir*(type==='special'?9:5);other.vy=type==='special'?-6:-2;burst(other.x,other.y-60,other.color,type==='special'?18:9);}}
+function update(dt){time+=dt;if(!paused){for(const [p,other,left,right,jump,punch,special] of [[a,b,'a','d','w','f','g'],[b,a,'arrowleft','arrowright','arrowup','enter','/']]){
+const speed=4.3;if(keys.has(left))p.vx=-speed;if(keys.has(right))p.vx=speed;if(!keys.has(left)&&!keys.has(right))p.vx*=.78;
+if(keys.has(jump)&&!p.air){p.vy=-12;p.air=true;burst(p.x,p.y+10,p.color,6)}
+if(keys.has(punch)){action(p,other,'punch');keys.delete(punch)}if(keys.has(special)){action(p,other,'special');keys.delete(special)}
+p.x+=p.vx*dt/16;p.y+=p.vy*dt/16;p.vy+=.58*dt/16;if(p.y>395){p.y=395;p.vy=0;p.air=false}p.x=Math.max(65,Math.min(895,p.x));p.dir=other.x>p.x?1:-1;p.walk+=Math.abs(p.vx)*.03*dt/16;p.attack=Math.max(0,p.attack-dt/16);p.special=Math.max(0,p.special-dt/16);p.hit=Math.max(0,p.hit-dt/16);}
+for(const q of particles){q.x+=q.vx*dt/16;q.y+=q.vy*dt/16;q.vy+=.08*dt/16;q.life-=dt/16;}particles=particles.filter(q=>q.life>0);
+healthA.style.width=a.hp+'%';healthB.style.width=b.hp+'%';if(a.hp===0||b.hp===0)status.textContent=a.hp===b.hp?'DRAW!':a.hp===0?'BERRY BOT WINS!':'MINT BOT WINS!';else status.textContent='ROUND 01 · SPAR!';}}
+function render(){drawBackground();drawFighter(a,b);drawFighter(b,a);for(const q of particles){ctx.globalAlpha=Math.min(1,q.life/20);ctx.fillStyle=q.color;ctx.beginPath();ctx.arc(q.x,q.y,q.size,0,Math.PI*2);ctx.fill()}ctx.globalAlpha=1;ctx.fillStyle='#dbe5ff88';ctx.font='12px system-ui';ctx.fillText('CREATIVE PLAYGROUND // CANVAS TEST',24,510);}
+function loop(now){const dt=Math.min(32,now-last||16);last=now;update(dt);render();requestAnimationFrame(loop)}requestAnimationFrame(loop);
+window.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if(['arrowleft','arrowright','arrowup',' '].includes(k))e.preventDefault();keys.add(k)});window.addEventListener('keyup',e=>keys.delete(e.key.toLowerCase()));
+document.getElementById('pauseBtn').addEventListener('click',()=>{paused=!paused;document.getElementById('pauseBtn').textContent=paused?'Resume':'Pause'});
+document.getElementById('resetBtn').addEventListener('click',reset);
+document.querySelectorAll('[data-key]').forEach(btn=>{const k=btn.dataset.key;const down=e=>{e.preventDefault();keys.add(k)};const up=e=>{e.preventDefault();keys.delete(k)};btn.addEventListener('pointerdown',down);btn.addEventListener('pointerup',up);btn.addEventListener('pointerleave',up);btn.addEventListener('pointercancel',up)});
+})();
+</script>
+</body>
+</html>
