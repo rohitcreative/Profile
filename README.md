@@ -19,14 +19,14 @@
 
 ---
 
-## 🎬 My creative reel
+## ✦ Creative Motion Lab
 
 <div align="center">
   <a href="https://rohitcreative.github.io/Profile/fight/">
-    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-reel-preview.svg" alt="Animated skills graphic: rotating headphones, VFX lighting and fire, cinematic environments" width="100%">
+    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-reel-preview.svg" alt="Animated CGI and animation services: product commercial, short film, 3D environments, graphic design, lighting and rendering" width="100%">
   </a>
-  <p><strong><a href="https://rohitcreative.github.io/Profile/fight/">▶ Explore the interactive creative reel</a></strong></p>
-  <sub>A responsive visual showcase with auto motion and hover-reactive project cards — no game controls.</sub>
+  <p><strong><a href="https://rohitcreative.github.io/Profile/fight/">▶ Explore the animated Motion Lab</a></strong></p>
+  <sub>An animated creative-services showcase with motion graphics and hover-reactive project cards.</sub>
 </div>
 
 ## 🧰 Skill
@@ -36,17 +36,7 @@
 - **Adobe tools:** After Effects · Premiere Pro · Photoshop · Illustrator
 - **Creative focus:** CGI advertising · Photoreal product visuals · Environment art · Visual storytelling · VFX
 
-## 🏆 Recognition
-
-Award-winning environment-art work, including the **Creative Mind award**.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rohitcreative/Portfolio/main/images/Creative%20Mind%202025%20Award.jpg" alt="Creative Mind 2025 award" width="320">
-</p>
-
----
-
-## ✦ Selected projects
+## ✦ Recent Projects
 
 <table>
   <tr>
@@ -78,7 +68,7 @@ Award-winning environment-art work, including the **Creative Mind award**.
     </td>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
-        <img src="https://cadiniitaly.in/cdn/shop/files/5.png?v=1760013724&width=1445" alt="Cadini Italy perfume product image; open the linked ArtStation commercial for Rohit's project" width="100%">
+        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.webp" alt="Cadini Italy Love di Como perfume — project thumbnail from the ArtStation gallery" width="100%">
       </a>
       <h3>🧴 Cadini Italy — Luxury Perfume Product Commercial</h3>
       A luxury product commercial concept focused on refined lighting, premium materials and elegant product presentation.<br>
@@ -96,3 +86,16 @@ Award-winning environment-art work, including the **Creative Mind award**.
   <a href="https://rohitcreative.github.io/Portfolio/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/rohit-creative">Let's connect on LinkedIn</a>
 </p>
+
+
+---
+
+## 🏆 Recognition
+
+Award-winning environment-art work, including the **Creative Mind award**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rohitcreative/Portfolio/main/images/Creative%20Mind%202025%20Award.jpg" alt="Creative Mind 2025 award" width="320">
+</p>
+
+---
