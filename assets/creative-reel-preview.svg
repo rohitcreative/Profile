@@ -26,44 +26,44 @@
  <path d="M70-30L-80 760M180-30L30 760M290-30L140 760M400-30L250 760M510-30L360 760M620-30L470 760M730-30L580 760M840-30L690 760M950-30L800 760M1060-30L910 760M1170-30L1020 760" stroke-opacity=".08"/>
 </g>
 <!-- Animation -->
-<g class="float" transform="translate(385 150)">
+<g class="float" transform="translate(440 145) scale(.8)">
  <use href="#hex" fill="url(#lime)" stroke="none"/>
  <g class="icon" stroke="#ff6729" transform="translate(0 -24) scale(.88)">
   <circle cx="0" cy="-30" r="8"/><circle cx="-9" cy="-5" r="7"/><path d="M-3-21L-8-12M-16-5L-31 11M-2 2L13 17M-6 4L-14 31M2-9L24-18M-14 31L-30 39M13 17L7 37M-30 39L-38 42M7 37L18 41M-14-11L-25-20M4-12L17-23"/>
  </g><text class="label" x="0" y="55" fill="#071009" style="fill:#071009">ANIMATION</text>
 </g>
 <!-- CGI product visuals -->
-<g class="float" transform="translate(690 150)">
+<g class="float" transform="translate(760 145) scale(.8)">
  <use href="#hex" class="tile"/>
  <g class="icon" transform="translate(0 -27) scale(.9)"><circle cy="-48" r="7"/><path d="M-2-40L-17-19L-12 1L-20 24L-13 46M2-40L17-19L12 1L20 24L13 46M-17-19H17M-12 1H12M-20 24H20M-13 46L-22 54M13 46L22 54M-2-39L-24-25M2-39L25-25"/><path d="M-28-24L-39-37M-39-37L-36-23M25-25L36-14"/></g>
  <text class="label" x="0" y="45"><tspan x="0">CGI PRODUCT</tspan><tspan x="0" dy="24">VISUAL</tspan></text>
 </g>
 <!-- Short film -->
-<g class="float" transform="translate(260 370)">
+<g class="float" transform="translate(280 380) scale(.8)">
  <use href="#hex" class="tile"/>
  <g class="icon" transform="translate(0 -24)"><path d="M-43-26H43V-8H-43Z"/><path d="M-43-8Q-32-8-32 0T-43 8V24H43V8Q32 8 32 0T43-8"/><path d="M-25-20V-14M-12-20V-14M1-20V-14M14-20V-14M27-20V-14"/><rect x="-30" y="31" width="28" height="22" rx="3"/><path d="M-2 34L14 28V53L-2 47ZM22 31H43M22 41H48M22 51H39"/></g>
  <text class="label" x="0" y="68">SHORT FILM</text>
 </g>
 <!-- Environment -->
-<g class="float" transform="translate(940 370)">
+<g class="float" transform="translate(920 380) scale(.8)">
  <use href="#hex" class="tile"/>
  <g class="icon" transform="translate(0 -24)"><path d="M-38-38V36M-25-38V36M25-38V36M38-38V36M-38-22H-25M-38-4H-25M-38 14H-25M25-22H38M25-4H38M25 14H38"/><path d="M-19 23Q-8-4 0 12T20 23L14 38H-14Z"/><path d="M-8-20L-4-14L-8-8M8-20L4-14L8-8M-15-12H-9M15-12H9M-5-31V-23M-9-27H-1M16-29V-21M12-25H20"/></g>
  <text class="label" x="0" y="68">3D ENVIRONMENT</text>
 </g>
 <!-- Graphic design -->
-<g class="float" transform="translate(435 610)">
+<g class="float" transform="translate(440 615) scale(.8)">
  <use href="#hex" class="tile"/>
  <g class="icon" transform="translate(0 -25)"><path d="M-39 20A39 39 0 0 1 39 20M0-20V25M-26 1L-5 25M26 1L5 25M-39 20H-28V31H-39ZM28 20H39V31H28ZM-8 25H8L13 39H-13Z"/><circle cy="7" r="8"/><path d="M-39-19H-30V-10H-39ZM30-19H39V-10H30Z"/></g>
  <text class="label" x="0" y="68">GRAPHIC DESIGN</text>
 </g>
 <!-- Lighting and rendering -->
-<g class="float" transform="translate(690 610)">
+<g class="float" transform="translate(760 615) scale(.8)">
  <use href="#hex" class="tile"/>
  <g class="icon" transform="translate(0 -24)"><path d="M-39-28H-27M-39-28V-16M39-28H27M39-28V-16M-39 28H-27M-39 28V16M39 28H27M39 28V16"/><path d="M-9 25Q-29 6-7-8Q-12 9 3 8Q16 7 8-7Q29 10 13 25Z" fill="#ff702b" fill-opacity=".13"/><path d="M-8 33H19M-4-15L-1-21M8-16L12-21"/></g>
  <text class="label" x="0" y="55"><tspan x="0">LIGHTING &amp;</tspan><tspan x="0" dy="24">RENDERING</tspan></text>
 </g>
 <!-- Center mark -->
-<g transform="translate(600 385)" fill="none" stroke="url(#lime)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+<g transform="translate(600 385) scale(.8)" fill="none" stroke="url(#lime)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
  <path d="M-27-38C-56-70-78-32-49-10L-7 0L-49 10C-78 32-56 70-27 38L-7 0L27 38C56 70 78 32 49 10L7 0L49-10C78-32 56-70 27-38L7 0Z"/>
 </g>
 <circle cx="600" cy="385" r="7" fill="#c9df3d"><animate attributeName="r" values="6;9;6" dur="2.8s" repeatCount="indefinite"/></circle>
