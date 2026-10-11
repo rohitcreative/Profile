@@ -27,8 +27,7 @@
 </g>
 <!-- Animation -->
 <g class="float" transform="translate(385 150)">
- <use href="#hex" class="tile" fill="url(#lime)" stroke="none"/>
- <use href="#hex" fill="url(#lime)"/>
+ <use href="#hex" fill="url(#lime)" stroke="none"/>
  <g class="icon" stroke="#ff6729" transform="translate(0 -24) scale(.88)">
   <circle cx="0" cy="-30" r="8"/><circle cx="-9" cy="-5" r="7"/><path d="M-3-21L-8-12M-16-5L-31 11M-2 2L13 17M-6 4L-14 31M2-9L24-18M-14 31L-30 39M13 17L7 37M-30 39L-38 42M7 37L18 41M-14-11L-25-20M4-12L17-23"/>
  </g><text class="label" x="0" y="55" fill="#071009" style="fill:#071009">ANIMATION</text>
