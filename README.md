@@ -1,9 +1,11 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-stage.svg" alt="Rohit Yadav — animated creative portfolio banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-stage.svg" alt="Rohit Yadav — animated creative portfolio banner" width="100%">
 </div>
 
 <h1 align="center">Hey, I'm Rohit Yadav 👋</h1>
 <h3 align="center">3D Animator · CGI / VFX Artist · Unreal Environment Artist</h3>
+
+<p align="center"><img src="https://img.shields.io/badge/Experience-4%2B%20Years-6C5CE7?style=for-the-badge" alt="4+ years of experience"> <img src="https://img.shields.io/badge/Focus-CGI%20%26%20Product%20Animation-111827?style=for-the-badge" alt="CGI and product animation"> <img src="https://img.shields.io/badge/Based%20in-Mumbai%2C%20India-0EA5E9?style=for-the-badge" alt="Mumbai, India"></p>
 
 <p align="center">
   <strong>I build visuals that make people stop scrolling.</strong><br>
@@ -22,21 +24,28 @@
 ## ✦ Creative Motion Lab
 
 <div align="center">
-  <a href="https://rohitcreative.github.io/Profile/fight/">
-    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-reel-preview.svg" alt="Animated CGI and animation services: product commercial, short film, 3D environments, graphic design, lighting and rendering" width="100%">
+  <a href="https://rohitcreative.github.io/rohitcreative/fight/">
+    <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-reel-preview.svg" alt="Animated CGI and animation services: product commercial, short film, 3D environments, graphic design, lighting and rendering" width="100%">
   </a>
-  <p><strong><a href="https://rohitcreative.github.io/Profile/fight/">▶ Explore the animated Motion Lab</a></strong></p>
+  <p><strong><a href="https://rohitcreative.github.io/rohitcreative/fight/">▶ Explore the animated Motion Lab</a></strong></p>
   <sub>An animated creative-services showcase with motion graphics and hover-reactive project cards.</sub>
 </div>
 
-## 🧰 Skill
+## ✦ What I Create
+
+- **Product CGI & advertising** — premium product visuals, lighting, materials and camera-led animation.
+- **Anamorphic CGI** — forced-perspective visuals designed to break out of the screen.
+- **Cinematic environments** — atmospheric real-time worlds and environment storytelling.
+- **Animation & post-production** — camera animation, compositing, editing and sound design.
+
+## 🧰 Skills & Tools
 
 - **3D & real-time:** Blender · Unreal Engine · Maya
 - **Animation & finishing:** Product animation · Cinematic camera work · Lighting · Compositing · Editing · Sound design
 - **Adobe tools:** After Effects · Premiere Pro · Photoshop · Illustrator
 - **Creative focus:** CGI advertising · Photoreal product visuals · Environment art · Visual storytelling · VFX
 
-## ✦ Recent Projects
+## ✦ Featured Projects
 
 <table>
   <tr>
@@ -68,7 +77,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
-        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.jpg" alt="Cadini Italy Love di Como perfume — ArtStation gallery thumbnail" width="480" height="270">
+        <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/cadini-artstation-thumb.jpg" alt="Cadini Italy Love di Como perfume — ArtStation gallery thumbnail" width="480" height="270">
       </a>
       <h3>🧴 Cadini Italy — Luxury Perfume Product Commercial</h3>
       A luxury product commercial concept focused on refined lighting, premium materials and elegant product presentation.<br>
@@ -79,23 +88,3 @@
 
 <p align="center"><a href="https://rohitcreative.artstation.com/"><strong>Explore all projects on ArtStation →</strong></a></p>
 
----
-
-<p align="center">
-  <strong>Have a visual idea that deserves to feel real?</strong><br>
-  <a href="https://rohitcreative.github.io/Portfolio/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/rohit-creative">Let's connect on LinkedIn</a>
-</p>
-
-
----
-
-## 🏆 Recognition
-
-Award-winning environment-art work, including the **Creative Mind award**.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rohitcreative/Portfolio/main/images/Creative%20Mind%202025%20Award.jpg" alt="Creative Mind 2025 award" width="320">
-</p>
-
----
