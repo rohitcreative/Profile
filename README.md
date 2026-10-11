@@ -88,3 +88,20 @@
 
 <p align="center"><a href="https://rohitcreative.artstation.com/"><strong>Explore all projects on ArtStation →</strong></a></p>
 
+---
+
+## 🏆 Recognition
+
+Award-winning environment-art work, including the **Creative Mind award**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rohitcreative/Portfolio/main/images/Creative%20Mind%202025%20Award.jpg" alt="Creative Mind 2025 award" width="320">
+</p>
+
+---
+
+<p align="center">
+  <strong>Have a visual idea that deserves to feel real?</strong><br>
+  <a href="https://rohitcreative.github.io/Portfolio/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/rohit-creative">Let's connect on LinkedIn</a>
+</p>
