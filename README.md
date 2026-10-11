@@ -17,7 +17,7 @@
   <a href="https://rohitcreative.artstation.com/">🎨 ArtStation</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/rohit-creative">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.youtube.com/@DesignerxArtist">YouTube</a> &nbsp;·&nbsp;
-  <a href="https://drive.google.com/drive/folders/10YLlSDVxDQ8A7qJJtSU9_UAb7qGU8BfD"><img src="https://img.shields.io/badge/RESUME-DOWNLOAD-70E67B?style=for-the-badge&labelColor=10170B" alt="Download Resume"></a>
+  <a href="https://drive.google.com/drive/folders/10YLlSDVxDQ8A7qJJtSU9_UAb7qGU8BfD">📄 Resume</a>
 </p>
 
 ---
@@ -28,8 +28,8 @@
   <a href="https://rohitcreative.github.io/fight/">
     <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-reel-preview.svg" alt="Creative Motion Lab: six floating hexagonal service cards arranged around a central lime-green logo" width="100%">
   </a>
-  <p><strong><a href="https://rohitcreative.github.io/fight/">▶ Explore the animated Motion Lab</a></strong></p>
-  <sub>Six floating hexagonal service cards, custom orange line-art icons and a central animated logo.</sub>
+  <p><strong>Need 3D animation, CGI or product visuals for your brand?</strong><br>
+  📩 Let's work together: <a href="https://www.linkedin.com/in/rohit-creative">LinkedIn</a> · <a href="https://rohitcreative.artstation.com/">ArtStation</a></p>
 </div>
 
 ## ✦ What I Create
