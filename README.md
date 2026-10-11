@@ -68,7 +68,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
-        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.webp" alt="Cadini Italy Love di Como perfume — project thumbnail from the ArtStation gallery" width="100%">
+        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.jpg" alt="Cadini Italy Love di Como perfume — project thumbnail from the ArtStation gallery" width="100%">
       </a>
       <h3>🧴 Cadini Italy — Luxury Perfume Product Commercial</h3>
       A luxury product commercial concept focused on refined lighting, premium materials and elegant product presentation.<br>
