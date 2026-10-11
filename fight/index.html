@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090d18">
 <meta name="description" content="Rohit Yadav's creative reel — product animation, CGI/VFX, anamorphic advertising and cinematic environments.">
-<title>Skills & Creative Reel — Rohit Yadav</title>
+<title>Motion Lab & Recent Projects — Rohit Yadav</title>
 <style>
 :root{color-scheme:dark;--bg:#090d18;--panel:#121a2a;--text:#f4f7ff;--muted:#a6b3cd;--cyan:#73e8ff;--violet:#a88bff;--line:#ffffff20}
 *{box-sizing:border-box}
@@ -29,6 +29,21 @@ h1 span{color:var(--cyan)}
 .orb:before{content:"";position:absolute;inset:18px;border:1px solid #ffffffa8;border-radius:20px}
 .orb:after{content:"";position:absolute;width:28px;height:28px;border-radius:50%;background:#fff;right:-10px;top:10px;box-shadow:0 0 28px #fff}
 .art-label{position:absolute;bottom:18px;left:20px;right:20px;display:flex;justify-content:space-between;gap:12px;font-size:.72rem;letter-spacing:.14em;color:#cbd8f6;font-weight:800}
+
+.service-section{margin-top:24px}
+.service-board{position:relative;overflow:hidden;border:1px solid #ffffff18;border-radius:26px;min-height:570px;padding:30px 18px;background:radial-gradient(ellipse at 50% 50%,#151e2d 0,#080b13 70%);isolation:isolate}
+.service-board:before{content:"";position:absolute;inset:-45%;z-index:-2;background:repeating-radial-gradient(ellipse at 40% 50%,transparent 0 28px,#ffffff12 29px 31px,transparent 32px 49px);transform:rotate(-19deg);animation:wire-drift 26s linear infinite}
+.service-board:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(125deg,transparent 35%,#8fe24a09 50%,transparent 65%);animation:scan 7s ease-in-out infinite}
+.service-grid{position:relative;z-index:2;max-width:780px;margin:0 auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:center}
+.service-tile{aspect-ratio:1.06;clip-path:polygon(50% 0,100% 24%,100% 76%,50% 100%,0 76%,0 24%);background:#17191f;color:#f6f8fb;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:16px 9px;transition:transform .35s,background .35s,filter .35s;animation:tile-float 5s ease-in-out infinite}
+.service-tile:nth-child(2){grid-column:3;animation-delay:-1.2s}.service-tile:nth-child(3){grid-column:1/3;grid-row:2;transform:translateY(-20px);animation-delay:-2.1s}.service-tile:nth-child(4){grid-column:4;grid-row:2;transform:translateY(-20px);animation-delay:-.7s}.service-tile:nth-child(5){grid-column:2;grid-row:3;transform:translateY(-38px);animation-delay:-3s}.service-tile:nth-child(6){grid-column:3;grid-row:3;transform:translateY(-38px);animation-delay:-1.7s}
+.service-tile:hover{transform:translateY(-8px) scale(1.035);background:#20232a;filter:drop-shadow(0 0 12px #8fe24a4a)}
+.service-tile.active{background:linear-gradient(130deg,#70e67b,#c5dc32);color:#07100a;animation:active-glow 3.8s ease-in-out infinite}
+.service-icon{font-size:clamp(2rem,4vw,3.4rem);line-height:1;color:#ff702b;text-shadow:0 0 16px #ff702b35}
+.service-tile strong{font-size:clamp(.7rem,1.2vw,.95rem);line-height:1.2;text-transform:uppercase;letter-spacing:.02em}
+.service-core{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;width:94px;height:94px;display:grid;place-items:center;color:#91e14c;font-size:5rem;font-weight:900;text-shadow:0 0 26px #8fe24a55;animation:core-spin 16s linear infinite;pointer-events:none}
+.service-orbit{position:absolute;left:50%;top:50%;width:180px;height:180px;border:1px solid #8fe24a25;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}.orbit-two{width:240px;height:240px;border-color:#ff702b18;animation:orbit-pulse 4s ease-in-out infinite}
+.recognition-section{margin:40px 0 28px}
 .section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:54px 0 18px}
 h2{font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.1;margin:0;letter-spacing:-.04em}
 .section-head p{color:var(--muted);margin:0;font-size:.9rem}
@@ -59,29 +74,40 @@ body.playing .progress span{animation:progress 5s linear infinite}
 .tool{padding:18px;border:1px solid var(--line);border-radius:16px;background:#ffffff04}
 .tool strong{display:block;margin-bottom:5px}.tool p{color:var(--muted);margin:0;font-size:.9rem}
 footer{border-top:1px solid var(--line);padding:26px 0 38px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:.85rem}footer a{color:var(--cyan);text-decoration:none}
-@keyframes orbit{to{transform:translate(-50%,-50%) rotate(360deg)}}@keyframes float{0%,100%{transform:translate(-50%,-50%) rotate(35deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(50deg) translateY(-12px)}}@keyframes progress{to{width:100%}}
-@media(max-width:900px){.hero{grid-template-columns:1fr .75fr}.track{grid-template-columns:repeat(2,minmax(0,1fr))}.toolkit{grid-template-columns:1fr}}
-@media(max-width:620px){.wrap{width:calc(100% - 20px)}header{align-items:flex-start;flex-direction:column;padding:18px 0}.hero{grid-template-columns:1fr;padding-top:26px}.hero-art{min-height:220px}.section-head{align-items:flex-start;flex-direction:column;margin-top:38px}.track{gap:9px}.info{padding:10px}.info p{font-size:.75rem}.reel-shell{padding:9px}.reel-top{align-items:flex-start;flex-direction:column}.project{border-radius:12px}h3{font-size:.9rem}}
+@keyframes orbit{to{transform:translate(-50%,-50%) rotate(360deg)}}@keyframes wire-drift{to{transform:rotate(341deg) translateX(3%)}}@keyframes scan{0%,100%{opacity:.25;transform:translateX(-25%)}50%{opacity:1;transform:translateX(25%)}}@keyframes tile-float{0%,100%{filter:drop-shadow(0 0 1px #ffffff28)}50%{filter:drop-shadow(0 0 8px #8fe24a22)}}@keyframes active-glow{0%,100%{filter:drop-shadow(0 0 2px #8fe24a20)}50%{filter:drop-shadow(0 0 18px #8fe24a60)}}@keyframes core-spin{to{transform:translate(-50%,-50%) rotate(360deg)}}@keyframes orbit-pulse{0%,100%{opacity:.35;scale:.92}50%{opacity:.9;scale:1.08}}@keyframes float{0%,100%{transform:translate(-50%,-50%) rotate(35deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(50deg) translateY(-12px)}}@keyframes progress{to{width:100%}}
+@media(max-width:900px){.hero{grid-template-columns:1fr .75fr}.track{grid-template-columns:repeat(2,minmax(0,1fr))}.toolkit{grid-template-columns:1fr}.service-grid{max-width:640px}.service-board{min-height:500px}}
+@media(max-width:620px){.service-board{min-height:420px;padding:20px 5px}.service-grid{gap:5px;max-width:100%}.service-tile{padding:8px 3px;gap:7px}.service-icon{font-size:1.7rem}.service-tile strong{font-size:.57rem}.service-core{font-size:3.5rem;width:58px;height:58px}.service-orbit{width:115px;height:115px}.orbit-two{width:160px;height:160px}.wrap{width:calc(100% - 20px)}header{align-items:flex-start;flex-direction:column;padding:18px 0}.hero{grid-template-columns:1fr;padding-top:26px}.hero-art{min-height:220px}.section-head{align-items:flex-start;flex-direction:column;margin-top:38px}.track{gap:9px}.info{padding:10px}.info p{font-size:.75rem}.reel-shell{padding:9px}.reel-top{align-items:flex-start;flex-direction:column}.project{border-radius:12px}h3{font-size:.9rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body class="playing">
 <div class="wrap">
-<header><div class="brand">ROHIT YADAV / VISUAL ARTIST</div><nav aria-label="Main navigation"><a href="#reel">Creative reel</a><a href="https://rohitcreative.artstation.com/" target="_blank" rel="noreferrer">ArtStation ↗</a><a href="https://rohitcreative.github.io/Portfolio/" target="_blank" rel="noreferrer">Portfolio ↗</a></nav></header>
+<header><div class="brand">ROHIT YADAV / VISUAL ARTIST</div><nav aria-label="Main navigation"><a href="#motion-lab">Motion Lab</a><a href="https://rohitcreative.artstation.com/" target="_blank" rel="noreferrer">ArtStation ↗</a><a href="https://rohitcreative.github.io/Portfolio/" target="_blank" rel="noreferrer">Portfolio ↗</a></nav></header>
 <main>
 <section class="hero">
 <div><div class="kicker">Product animation · CGI / VFX · Environments</div><h1>Visuals that <span>move.</span><br>Worlds that stay.</h1><p class="lead">A curated reel of cinematic product visuals, anamorphic advertising and real-time worlds. Hover over a project to explore the motion and details.</p><a class="cta" href="#reel">Explore the creative reel ↓</a></div>
 <div class="hero-art" aria-label="Abstract animated CGI-inspired visual"><div class="orb"></div><div class="art-label"><span>CGI / MOTION</span><span>01 — 04</span></div></div>
 </section>
-<section id="reel">
-<div class="section-head"><h2>Selected work</h2><p>A small montage of recent visual experiments.</p></div>
+<section class="service-section" aria-labelledby="service-title">
+<div class="section-head"><h2 id="service-title">CGI &amp; Animation Services</h2><p>Six creative disciplines, one visual language.</p></div>
+<div class="service-board"><div class="service-grid">
+<div class="service-tile active"><span class="service-icon">♧</span><strong>Animation</strong></div>
+<div class="service-tile"><span class="service-icon">◉</span><strong>CGI Product<br>Visuals</strong></div>
+<div class="service-tile"><span class="service-icon">▣</span><strong>Short Film</strong></div>
+<div class="service-tile"><span class="service-icon">▧</span><strong>3D Environment</strong></div>
+<div class="service-tile"><span class="service-icon">⌁</span><strong>Graphic Design</strong></div>
+<div class="service-tile"><span class="service-icon">♨</span><strong>Lighting &amp;<br>Rendering</strong></div>
+</div><div class="service-core" aria-hidden="true">✣</div><div class="service-orbit"></div><div class="service-orbit orbit-two"></div></div>
+</section>
+<section id="motion-lab">
+<div class="section-head"><h2>Recent Projects</h2><p>Recent product films, anamorphic CGI and visual experiments.</p></div>
 <div class="reel-shell">
-<div class="reel-top"><strong>THE CREATIVE REEL</strong><span id="reelStatus" aria-live="polite">AUTO MOTION · HOVER TO INTERACT</span></div>
+<div class="reel-top"><strong>MOTION LAB</strong><span id="reelStatus" aria-live="polite">AUTO MOTION · HOVER TO INTERACT</span></div>
 <div class="track">
 <a class="project" href="https://rohitcreative.artstation.com/projects/RqyR1E" target="_blank" rel="noreferrer" aria-label="View ROG Harpe II product animation on ArtStation"><div class="thumb"><img src="https://img.youtube.com/vi/pE5aYUAa44A/hqdefault.jpg" alt="ROG Harpe II Extreme Edition product animation thumbnail" loading="eager"></div><div class="info"><div class="category">Product animation</div><h3>ROG Harpe II Extreme Edition</h3><p>Premium materials, dramatic reflections and a cinematic hero reveal.</p></div></a>
 <a class="project" href="https://rohitcreative.artstation.com/projects/419eG1" target="_blank" rel="noreferrer" aria-label="View Xbox anamorphic billboard project on ArtStation"><div class="thumb"><img src="https://img.youtube.com/vi/9GmkesCS4js/hqdefault.jpg" alt="Xbox controller anamorphic billboard animation thumbnail" loading="eager"></div><div class="info"><div class="category">Anamorphic CGI</div><h3>Xbox Controller — Breaking the Screen</h3><p>A forced-perspective illusion designed to break beyond the billboard.</p></div></a>
 <a class="project" href="https://rohitcreative.artstation.com/projects/oJGkmJ" target="_blank" rel="noreferrer" aria-label="View anamorphic car ad on ArtStation"><div class="thumb"><img src="https://cdnb.artstation.com/p/assets/images/images/092/120/617/large/rohit-yadav-0431.jpg?1758745881" alt="Anamorphic Car Ad — original ArtStation project thumbnail" loading="lazy"></div><div class="info"><div class="category">CGI advertising</div><h3>Anamorphic Car Ad</h3><p>Automotive motion, perspective, light streaks and screen-breaking energy.</p></div></a>
-<a class="project" href="https://rohitcreative.artstation.com/projects/QxzZGZ" target="_blank" rel="noreferrer" aria-label="View Cadini Italy luxury perfume commercial on ArtStation"><div class="thumb"><img src="https://cadiniitaly.in/cdn/shop/files/5.png?v=1760013724&width=1445" alt="Cadini Italy perfume product image; project details open on ArtStation" loading="lazy"></div><div class="info"><div class="category">Luxury commercial</div><h3>Cadini Italy — Perfume</h3><p>Warm tones, refined materials and premium cinematic presentation.</p></div></a>
+<a class="project" href="https://rohitcreative.artstation.com/projects/QxzZGZ" target="_blank" rel="noreferrer" aria-label="View Cadini Italy luxury perfume commercial on ArtStation"><div class="thumb"><img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.webp" alt="Cadini Italy Love di Como perfume — project thumbnail from the ArtStation gallery" loading="lazy"></div><div class="info"><div class="category">Luxury commercial</div><h3>Cadini Italy — Perfume</h3><p>Warm tones, refined materials and premium cinematic presentation.</p></div></a>
 </div>
 <div class="reel-note"><span>Hover or move your pointer across a card for a responsive tilt effect.</span><div class="reel-controls"><button id="motionToggle" type="button" aria-pressed="true">Pause motion</button><a href="https://rohitcreative.artstation.com/" target="_blank" rel="noreferrer">More projects ↗</a></div></div>
 <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
@@ -92,6 +118,7 @@ footer{border-top:1px solid var(--line);padding:26px 0 38px;display:flex;justify
 <div class="toolkit"><div class="tool"><strong>◈ 3D & real-time</strong><p>Blender · Unreal Engine · Maya · Cinematic environment art</p></div><div class="tool"><strong>✦ Motion & finishing</strong><p>Product animation · Lighting · Compositing · Editing · Sound design</p></div><div class="tool"><strong>⌘ Visual storytelling</strong><p>CGI advertising · VFX · Anamorphic visuals · Photoreal presentation</p></div></div>
 </section>
 </main>
+<section class="recognition-section" id="recognition"><div class="section-head"><h2>Recognition</h2><p>Creative work recognised for environment art.</p></div><div class="tool"><strong>🏆 Creative Mind Award</strong><p>Award-winning environment-art work, including the Creative Mind award.</p></div></section>
 <footer><span>Made with curiosity, craft and a love for visual storytelling.</span><span><a href="https://rohitcreative.github.io/Portfolio/">Portfolio</a> · <a href="https://www.linkedin.com/in/rohit-creative">LinkedIn</a> · <a href="https://www.youtube.com/@DesignerxArtist">YouTube</a></span></footer>
 </div>
 <script>
