@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://rohitcreative.github.io/Portfolio/">🌐 Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://rohitcreative.github.io/Portfolio/">🌐 Website</a> &nbsp;·&nbsp;
   <a href="https://rohitcreative.artstation.com/">🎨 ArtStation</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/rohit-creative">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.youtube.com/@DesignerxArtist">YouTube</a>
@@ -102,6 +102,6 @@ Award-winning environment-art work, including the **Creative Mind award**.
 
 <p align="center">
   <strong>Have a visual idea that deserves to feel real?</strong><br>
-  <a href="https://rohitcreative.github.io/Portfolio/">Portfolio</a> ·
+  <a href="https://rohitcreative.github.io/Portfolio/">Website</a> ·
   <a href="https://www.linkedin.com/in/rohit-creative">Let's connect on LinkedIn</a>
 </p>
