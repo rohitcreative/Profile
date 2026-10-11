@@ -24,10 +24,10 @@
 ## ✦ Creative Motion Lab
 
 <div align="center">
-  <a href="https://rohitcreative.github.io/rohitcreative/fight/">
+  <a href="https://rohitcreative.github.io/fight/">
     <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-reel-preview.svg" alt="Creative Motion Lab: six floating hexagonal service cards arranged around a central lime-green logo" width="100%">
   </a>
-  <p><strong><a href="https://rohitcreative.github.io/rohitcreative/fight/">▶ Explore the animated Motion Lab</a></strong></p>
+  <p><strong><a href="https://rohitcreative.github.io/fight/">▶ Explore the animated Motion Lab</a></strong></p>
   <sub>Six floating hexagonal service cards, custom orange line-art icons and a central animated logo.</sub>
 </div>
 
