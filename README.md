@@ -42,7 +42,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/RqyR1E">
-        <img src="https://img.youtube.com/vi/pE5aYUAa44A/hqdefault.jpg" alt="ROG Harpe II Extreme Edition 20 — product animation thumbnail" width="100%">
+        <img src="https://img.youtube.com/vi/pE5aYUAa44A/hqdefault.jpg" alt="ROG Harpe II Extreme Edition 20 — product animation thumbnail" width="480" height="270">
       </a>
       <h3>🖱️ ROG Harpe II Extreme Edition 20</h3>
       Premium product visualization with cinematic lighting, reflections and a hero reveal.<br>
@@ -50,7 +50,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/419eG1">
-        <img src="https://img.youtube.com/vi/9GmkesCS4js/hqdefault.jpg" alt="Xbox Controller — anamorphic billboard animation thumbnail" width="100%">
+        <img src="https://img.youtube.com/vi/9GmkesCS4js/hqdefault.jpg" alt="Xbox Controller — anamorphic billboard animation thumbnail" width="480" height="270">
       </a>
       <h3>🎮 Xbox Controller — Anamorphic Billboard</h3>
       Forced-perspective CGI designed to make a controller break out of a digital billboard.<br>
@@ -60,7 +60,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/oJGkmJ">
-        <img src="https://cdnb.artstation.com/p/assets/images/images/092/120/617/large/rohit-yadav-0431.jpg?1758745881" alt="Anamorphic Car Ad — original ArtStation project thumbnail" width="100%">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/092/120/617/large/rohit-yadav-0431.jpg?1758745881" alt="Anamorphic Car Ad — original ArtStation project thumbnail" width="480" height="270">
       </a>
       <h3>🚘 Anamorphic Car Ad — Breaking the Screen Illusion</h3>
       A car appears to smash through glass and break out of the screen in this Blender CGI illusion.<br>
@@ -68,7 +68,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
-        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.jpg" alt="Cadini Italy Love di Como perfume — project thumbnail from the ArtStation gallery" width="100%">
+        <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-artstation-thumb.jpg" alt="Cadini Italy Love di Como perfume — ArtStation gallery thumbnail" width="480" height="270">
       </a>
       <h3>🧴 Cadini Italy — Luxury Perfume Product Commercial</h3>
       A luxury product commercial concept focused on refined lighting, premium materials and elegant product presentation.<br>
