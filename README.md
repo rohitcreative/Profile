@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-stage.svg?v=2" alt="Rohit Yadav — animated creative portfolio banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-stage.svg?v=3" alt="Rohit Yadav — animated creative portfolio banner" width="100%">
 </div>
 
 <h1 align="center">Hey, I'm Rohit Yadav 👋</h1>
@@ -16,7 +16,8 @@
   <a href="https://rohitcreative.github.io/Portfolio/">🌐 Website</a> &nbsp;·&nbsp;
   <a href="https://rohitcreative.artstation.com/">🎨 ArtStation</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/rohit-creative">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/@DesignerxArtist">YouTube</a>
+  <a href="https://www.youtube.com/@DesignerxArtist">YouTube</a> &nbsp;·&nbsp;
+  <a href="https://drive.google.com/drive/folders/10YLlSDVxDQ8A7qJJtSU9_UAb7qGU8BfD"><img src="https://img.shields.io/badge/RESUME-DOWNLOAD-70E67B?style=for-the-badge&labelColor=10170B" alt="Download Resume"></a>
 </p>
 
 ---
