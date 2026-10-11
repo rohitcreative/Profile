@@ -25,10 +25,10 @@
 
 <div align="center">
   <a href="https://rohitcreative.github.io/rohitcreative/fight/">
-    <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-reel-preview.svg" alt="Animated CGI and animation services: product commercial, short film, 3D environments, graphic design, lighting and rendering" width="100%">
+    <img src="https://raw.githubusercontent.com/rohitcreative/rohitcreative/main/assets/creative-reel-preview.svg" alt="Creative Motion Lab: six floating hexagonal service cards arranged around a central lime-green logo" width="100%">
   </a>
   <p><strong><a href="https://rohitcreative.github.io/rohitcreative/fight/">▶ Explore the animated Motion Lab</a></strong></p>
-  <sub>An animated creative-services showcase with motion graphics and hover-reactive project cards.</sub>
+  <sub>Six floating hexagonal service cards, custom orange line-art icons and a central animated logo.</sub>
 </div>
 
 ## ✦ What I Create
