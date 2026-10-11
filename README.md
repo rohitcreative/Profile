@@ -23,13 +23,13 @@
 
 <div align="center">
   <a href="https://rohitcreative.github.io/Profile/fight/">
-    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-reel-preview.svg" alt="Animated creative reel featuring product CGI, VFX and cinematic environments — click to explore" width="100%">
+    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/creative-reel-preview.svg" alt="Animated skills graphic: rotating headphones, VFX lighting and fire, cinematic environments" width="100%">
   </a>
   <p><strong><a href="https://rohitcreative.github.io/Profile/fight/">▶ Explore the interactive creative reel</a></strong></p>
-  <sub>A responsive, auto-moving visual showcase with hover-reactive project cards — no game controls.</sub>
+  <sub>A responsive visual showcase with auto motion and hover-reactive project cards — no game controls.</sub>
 </div>
 
-## 🧰 Creative toolkit
+## 🧰 Skill
 
 - **3D & real-time:** Blender · Unreal Engine · Maya
 - **Animation & finishing:** Product animation · Cinematic camera work · Lighting · Compositing · Editing · Sound design
@@ -48,29 +48,20 @@ Award-winning environment-art work, including the **Creative Mind award**.
 
 ## ✦ Selected projects
 
-<div align="center">
-  <a href="https://rohitcreative.artstation.com/projects/RqyR1E">
-    <img src="https://img.youtube.com/vi/pE5aYUAa44A/hqdefault.jpg" alt="ROG Harpe II Extreme Edition 20 — product animation" width="48%">
-  </a>
-  <a href="https://rohitcreative.artstation.com/projects/419eG1">
-    <img src="https://img.youtube.com/vi/9GmkesCS4js/hqdefault.jpg" alt="Xbox Controller — anamorphic billboard animation" width="48%">
-  </a>
-  <a href="https://rohitcreative.artstation.com/projects/oJGkmJ">
-    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/anamorphic-car-cover.svg" alt="Anamorphic Car Ad — cinematic CGI" width="48%">
-  </a>
-  <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
-    <img src="https://raw.githubusercontent.com/rohitcreative/Profile/main/assets/cadini-perfume-cover.svg" alt="Cadini Italy — luxury perfume commercial" width="48%">
-  </a>
-</div>
-
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://rohitcreative.artstation.com/projects/RqyR1E">
+        <img src="https://img.youtube.com/vi/pE5aYUAa44A/hqdefault.jpg" alt="ROG Harpe II Extreme Edition 20 — product animation thumbnail" width="100%">
+      </a>
       <h3>🖱️ ROG Harpe II Extreme Edition 20</h3>
       Premium product visualization with cinematic lighting, reflections and a hero reveal.<br>
       <a href="https://rohitcreative.artstation.com/projects/RqyR1E">View project ↗</a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://rohitcreative.artstation.com/projects/419eG1">
+        <img src="https://img.youtube.com/vi/9GmkesCS4js/hqdefault.jpg" alt="Xbox Controller — anamorphic billboard animation thumbnail" width="100%">
+      </a>
       <h3>🎮 Xbox Controller — Anamorphic Billboard</h3>
       Forced-perspective CGI designed to make a controller break out of a digital billboard.<br>
       <a href="https://rohitcreative.artstation.com/projects/419eG1">View project ↗</a>
@@ -78,13 +69,19 @@ Award-winning environment-art work, including the **Creative Mind award**.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚘 Anamorphic Car Ad</h3>
-      A screen-breaking car illusion built around perspective, motion, glass and CGI storytelling.<br>
+      <a href="https://rohitcreative.artstation.com/projects/oJGkmJ">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/092/120/617/large/rohit-yadav-0431.jpg?1758745881" alt="Anamorphic Car Ad — original ArtStation project thumbnail" width="100%">
+      </a>
+      <h3>🚘 Anamorphic Car Ad — Breaking the Screen Illusion</h3>
+      A car appears to smash through glass and break out of the screen in this Blender CGI illusion.<br>
       <a href="https://rohitcreative.artstation.com/projects/oJGkmJ">View project ↗</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🧴 Cadini Italy — Luxury Perfume Commercial</h3>
-      Premium product presentation with refined materials, cinematic lighting and an elegant commercial mood.<br>
+      <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">
+        <img src="https://cadiniitaly.in/cdn/shop/files/5.png?v=1760013724&width=1445" alt="Cadini Italy perfume product image; open the linked ArtStation commercial for Rohit's project" width="100%">
+      </a>
+      <h3>🧴 Cadini Italy — Luxury Perfume Product Commercial</h3>
+      A luxury product commercial concept focused on refined lighting, premium materials and elegant product presentation.<br>
       <a href="https://rohitcreative.artstation.com/projects/QxzZGZ">View project ↗</a>
     </td>
   </tr>
