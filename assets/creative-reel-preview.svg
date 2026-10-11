@@ -13,7 +13,7 @@
   .icon{fill:none;stroke:url(#orange);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
   @keyframes cubeSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-  .cube-spin{transform-origin:0 0;animation:cubeSpin 10s linear infinite}
+  .cube-spin{transform-box:fill-box;transform-origin:center;animation:cubeSpin 10s linear infinite}
   @media(prefers-reduced-motion:reduce){.float-inner,.cube-spin{animation:none!important}}
  </style>
 </defs>
